@@ -58,13 +58,7 @@ h1, h2, h3, .titulo-principal, .subtitulo, .btn-mapa span {
     display: flex;
     justify-content: center;
 }
-.logo-principal {
-    position: relative; /* O absolute, según tu diseño */
-    z-index: 9999 !important; /* Esto lo pone por encima de todo */
-    display: block !important;
-    width: 200px; /* Asegúrate de que tenga un tamaño definido */
-    height: auto;
-}
+
 .logo-principal {
     width: 220px;
     height: auto;
