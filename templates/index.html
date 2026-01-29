@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Punto Justo Turismo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="hero">
+    <div class="overlay">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/elpunto.png') }}" alt="Logo El Punto Justo" class="logo-principal">
+        </div>
+
+        <h1 class="titulo-principal">El Punto Justo Turismo</h1>
+        <p class="subtitulo">Aventura, naturaleza y emoción en San Rafael</p>
+        <div class="frase">
+            <span>Rafting • Tirolesa • Trekking • Rapel • Cool River • Catamarán • Trekking • Playas </span>
+        </div>
+        <a class="btn" href="https://wa.me/5492616905794" target="_blank">
+            <i class="fab fa-whatsapp"></i> Consultanos por WhatsApp
+        </a>
+    </div>
+</header>
+
+<section class="actividades">
+    <h2>Nuestras Experiencias</h2>
+    <div class="grid">
+        <a class="card rafting" href="https://wa.me/5492616905794?text=Info%20Rafting">
+            <div class="card-bg"></div>
+            <span>Rafting</span>
+        </a>
+
+        <a class="card tirolesa" href="https://wa.me/5492616905794?text=Info%20Tirolesa">
+            <div class="card-bg"></div>
+            <span>Tirolesa</span>
+        </a>
+
+        <a class="card rapel" href="https://wa.me/5492616905794?text=Info%20Rapel">
+            <div class="card-bg"></div>
+            <span>Rapel</span>
+        </a>
+
+        <a class="card cool-river" href="https://wa.me/5492616905794?text=Info%20Cool%20River">
+            <div class="card-bg"></div>
+            <span>Cool River</span>
+        </a>
+
+        <a class="card catamaran" href="https://wa.me/5492616905794?text=Info%20Catamarán">
+            <div class="card-bg"></div>
+            <span>Catamarán</span>
+        </a>
+
+        <a class="card trekking" href="https://wa.me/5492616905794?text=Info%20Trekking">
+            <div class="card-bg"></div>
+            <span>Trekking</span>
+        </a>
+
+        <a class="card playas" href="https://wa.me/5492616905794?text=Info%20Playas">
+            <div class="card-bg"></div>
+            <span>Cruce a Playas</span>
+        </a>
+    </div>
+</section>
+<section class="resenas">
+    <h2>Lo que dicen nuestros aventureros</h2>
+    <div class="grid-resenas">
+        <img src="/static/images/resena1.jpg" alt="Reseña de Google" class="img-resena">
+        <img src="/static/images/resena3.jpeg" alt="Reseña de Google" class="img-resena">
+        <img src="/static/images/resena4.jpeg" alt="Reseña de Google" class="img-resena">
+        <img src="/static/images/resena2.jpeg" alt="Reseña de Google" class="img-resena">
+    </div>
+</section>
+
+<section class="ubicacion">
+    <h2>¿Dónde estamos?</h2>
+    <p>Te esperamos en el corazón de la aventura en San Rafael, Mendoza.</p>
+    <div class="info-extra">
+        <p><i class="fas fa-map-marked-alt"></i> <strong>Dirección:</strong> Ruta Provincial 173, Km 25, Valle Grande.</p>
+        <p><i class="fas fa-clock"></i> <strong>Horarios:</strong> Todos los días de 09:00 a 20:30 hs.</p>
+    </div>
+    <div class="boton-ubicacion-container">
+        <a href="https://www.google.com/maps/place/EL+PUNTO+JUSTO+Turismo/@-34.8291323,-68.5132276,486m/data=!3m1!1e3!4m6!3m5!1s0x9679bd0c9edd99f9:0x6b1ed412cdfe66c5!8m2!3d-34.8303507!4d-68.5137361!16s%2Fg%2F11qqt53lr9?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" target="_blank" class="btn-mapa">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>¡Nos Encontramos Aquí!</span>
+            <small>Ver Mapa</small>
+        </a>
+    </div>
+</section>
+<footer class="pie-pagina">
+    <div class="contenedor-pie">
+        <div class="sobre-nosotros-footer">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                En <strong>El Punto Justo Turismo</strong> te invitamos a vivir experiencias únicas
+                en San Rafael. Siempre con guías capacitados y máxima seguridad.
+            </p>
+        </div>
+
+        <div class="redes-footer">
+            <h3>Seguinos</h3>
+            <div class="iconos-redes">
+                <a href="https://www.instagram.com/elpuntojustoturismo/" target="_blank" class="social-btn ig">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/5492616905794" target="_blank" class="social-btn ws">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.tiktok.com/@tu_usuario" target="_blank" class="social-btn tk">
+                <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
